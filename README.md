@@ -25,3 +25,6 @@ Below are the steps on how to build this Horoscopes app.
 1. Create a function that gets triggered when the user clicks any of the buttons.
 1. Now let's create another section tag with the class "sign-info". In its JSX, it should display the signName as an h2 and a div. Inside that div, it should show the startDate and endDate, its luckyNumbers, and the daily horoscope for that sign.
 1. Use conditional rendering with a ternary statement to make the sign picker and sign info sections occupy the same place. If selectedSign has a value, show the sign info, but if it's null, show the sign picker.
+
+## Fetching Horoscope information via an API 
+1. https://rapidapi.com/soralapps/api/best-daily-astrology-and-horoscope-api
