@@ -17,6 +17,12 @@ Below are the steps on how to build this Horoscopes app.
 1. Write a findSign() function that takes in a date as input. It should return the corresponding zodiac sign by checking which zodiac sign's date range aligns with the inputted date. 
 1. Create another p tag to display the current Zodiac sign in JSX
 
+## Styling the text and sections
+1. Start by styling the body tag. Add a background color and a text color. Style the text using font properties as well.
+1. Style the #root by adding a max-width, margin and centering the text with text-align.
+2. Style the sections by adding a border, border-radius, and some padding/margin. Add a background color.
+3. Style the h1 and h2 text.
+
 ## Coding the zodiac sign buttons
 
 1. Create a section tag in the JSX that has a class of "sign-picker". This will hold all of our sign buttons so the user can learn more about the zodiac signs. If the user clicks on one of these buttons, this sign picker section will also hold information about a selected zodiac sign.
