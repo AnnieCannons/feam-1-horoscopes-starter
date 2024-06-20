@@ -31,17 +31,19 @@ Below are the steps on how to build this Horoscopes app.
 1. We need to track which sign was selected. We can do this by saving the selected sign in our app's memory using useState. So, let's create a new state variable called selectedSign. Then change our onClick handler function to call setSelectedSign. 
 1. We want our sign-buttons and sign-info to occupy the same place — in our sign-picker. When the user selects a sign, the sign's info should get displayed. And when no sign is selected, the sign-buttons should get displayed. Let's write a ternary statement in our JSX so that when selectedSign has a value, show the selected sign name, but if it's null, show the sign buttons.
 
-## Coding the sign info div
+## Coding the SignInfo div
 1. Now let's create another div tag with the class "sign-info". In its JSX, it should display the signName as an h2 and a div. Inside that div, it should show the startDate and endDate, its luckyNumbers, key traits, and the daily horoscope for that sign.
 
 ## Coding the Welcome screen
-1. Create a new state variable called showStart.  
+1. Create a new state variable called showWelcomePage.  
 2. In the JSX, create a section tag with class "welcome". It should say Welcome. "Click enter to learn about the twelve zodiac signs and their daily horoscopes." It should have an Enter button that sets showStart to false.
 3. Write a ternary statment that will determine whether the welcome screen should be displayed or the main website content.
 
 ## Coding the Divider 
+1. This is an optional bonus feature if you have time! See if you can create a divider that displays all of the zodiac images in a row in small icon sizes. 
 
-## Adding a Form for the user to find their sign 
+## Adding a Form with a Date Picker input for the user to find their sign 
+1. Create a "What's Your Sign?" Section that allows the user to input their birthday and learn more info about their zodiac sign. 
 
 ## Fetching Horoscope information via an API 
 1. https://rapidapi.com/soralapps/api/best-daily-astrology-and-horoscope-api
