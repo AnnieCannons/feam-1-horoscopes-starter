@@ -1,5 +1,5 @@
 # Horoscopes
-Below are the steps on how to build this Horoscopes app. 
+Here is a light outline that you can reference to build the Horoscopes app. 
 
 ## Setup
 
